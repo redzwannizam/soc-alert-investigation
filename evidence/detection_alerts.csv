@@ -1,0 +1,5 @@
+timestamp,host,rule,severity,description,evidence
+2026-10-25T09:12:15,WS-01,DET-001,Medium,Three or more failed logons within five minutes,Account=administrator; SourceIP=192.168.1.88; Count=3
+2026-10-25T09:14:20,WS-01,DET-002,High,Office application launched PowerShell,Parent=WINWORD.EXE; Process=powershell.exe
+2026-10-25T09:17:41,WS-01,DET-003,Medium,New service installation observed,Service=UpdaterService
+2026-10-25T09:20:11,WS-01,DET-004,High,Security audit log cleared,Security audit log was cleared

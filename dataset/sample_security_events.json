@@ -1,0 +1,96 @@
+﻿[
+  {
+    "timestamp": "2026-10-25T09:00:12",
+    "host": "WS-01",
+    "event_id": 4624,
+    "event_type": "successful_logon",
+    "username": "analyst",
+    "source_ip": "192.168.1.25",
+    "process": "explorer.exe",
+    "details": "Successful interactive logon"
+  },
+  {
+    "timestamp": "2026-10-25T09:12:04",
+    "host": "WS-01",
+    "event_id": 4625,
+    "event_type": "failed_logon",
+    "username": "administrator",
+    "source_ip": "192.168.1.88",
+    "process": null,
+    "details": "Failed logon attempt"
+  },
+  {
+    "timestamp": "2026-10-25T09:12:09",
+    "host": "WS-01",
+    "event_id": 4625,
+    "event_type": "failed_logon",
+    "username": "administrator",
+    "source_ip": "192.168.1.88",
+    "process": null,
+    "details": "Failed logon attempt"
+  },
+  {
+    "timestamp": "2026-10-25T09:12:15",
+    "host": "WS-01",
+    "event_id": 4625,
+    "event_type": "failed_logon",
+    "username": "administrator",
+    "source_ip": "192.168.1.88",
+    "process": null,
+    "details": "Failed logon attempt"
+  },
+  {
+    "timestamp": "2026-10-25T09:14:20",
+    "host": "WS-01",
+    "event_id": 4688,
+    "event_type": "process_creation",
+    "username": "analyst",
+    "source_ip": null,
+    "process": "powershell.exe",
+    "parent_process": "WINWORD.EXE",
+    "details": "PowerShell launched by Microsoft Word"
+  },
+  {
+    "timestamp": "2026-10-25T09:15:03",
+    "host": "WS-01",
+    "event_id": 4688,
+    "event_type": "process_creation",
+    "username": "analyst",
+    "source_ip": null,
+    "process": "rundll32.exe",
+    "parent_process": "powershell.exe",
+    "details": "Rundll32 launched by PowerShell"
+  },
+  {
+    "timestamp": "2026-10-25T09:17:41",
+    "host": "WS-01",
+    "event_id": 4697,
+    "event_type": "service_installation",
+    "username": "SYSTEM",
+    "source_ip": null,
+    "process": "UpdaterService",
+    "parent_process": null,
+    "details": "A new service was installed"
+  },
+  {
+    "timestamp": "2026-10-25T09:20:11",
+    "host": "WS-01",
+    "event_id": 1102,
+    "event_type": "audit_log_cleared",
+    "username": "analyst",
+    "source_ip": null,
+    "process": null,
+    "parent_process": null,
+    "details": "Security audit log was cleared"
+  },
+  {
+    "timestamp": "2026-10-25T09:30:00",
+    "host": "WS-01",
+    "event_id": 4624,
+    "event_type": "successful_logon",
+    "username": "analyst",
+    "source_ip": "192.168.1.25",
+    "process": "explorer.exe",
+    "details": "Successful interactive logon"
+  }
+]

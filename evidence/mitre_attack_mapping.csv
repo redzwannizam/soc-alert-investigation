@@ -1,0 +1,5 @@
+﻿"event_id","observation","technique_id","technique_name","confidence","reasoning"
+"4625","Three failed administrator logons","T1110","Brute Force","Low","Repeated failures are consistent with possible account guessing, but three events alone do not confirm brute force."
+"4688","Word launches PowerShell","T1059.001","PowerShell","Low","PowerShell execution is observed. Malicious use is not established because command-line arguments and payload evidence are absent."
+"1102","Security audit log cleared","T1070.001","Clear Windows Event Logs","Moderate","The recorded behavior matches the technique description, but the actor and intent are unknown."
+"4697","UpdaterService installed","Unassigned","Requires further investigation","Insufficient","Service installation alone does not establish malicious persistence."
